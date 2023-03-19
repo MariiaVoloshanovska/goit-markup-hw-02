@@ -10,7 +10,7 @@
 
 body {
     background-color: #FFFFFF;
-    color: var(--primary-text-color) ;
+    color: #434455;
     font-family: var(--primary-font);
 }
 
@@ -18,7 +18,7 @@ body {
     list-style: none;
 }
 
-.links {
+.link {
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ body {
 /* LOGOTYPE HEADER */
 
 .logo-1 {
-    font-family: var(--secondary-font);
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -38,7 +38,7 @@ body {
 }
 
 .logo-2 {
-    font-family: var(--secondary-font);
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -134,6 +134,10 @@ body {
 /* ========================= /COMPONENTS ========================== */
 
 /* ============================ HEADER ============================ */
+
+.adress-header {
+    font-style: normal;
+}
 /* =========================== /HEADER ============================ */
 
 /* ============================ HERO ============================== */
@@ -172,6 +176,7 @@ body {
 
 
 /* =========================== MAIN ============================ */
+
 .employee-page{
     background-color: #F4F4FD;
 }
