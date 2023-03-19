@@ -70,13 +70,6 @@ body {
     color: #404BBF;
 }
 
-.contact-phone-number {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-}
-
 /* MAIN */
 
 .section-main {
@@ -136,7 +129,7 @@ body {
 /* ============================ HEADER ============================ */
 
 .adress-header {
-    font-style: none;
+    font-style: normal;
 }
 /* =========================== /HEADER ============================ */
 
