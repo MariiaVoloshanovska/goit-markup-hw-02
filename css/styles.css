@@ -1,7 +1,7 @@
 
 :root {
     --accent-color: #FFFFFF;
-    --accent-bg-color: #404BBF;
+    --accent-bg-color: #404BBF;;
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --primary-font: 'Roboto', sans-serif;
@@ -48,7 +48,7 @@ body {
 }
 
 .logo-2-theme-light {
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 .logo-2-theme-dark {
@@ -62,7 +62,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 
 .menu-link:hover,
@@ -136,7 +136,7 @@ body {
 /* ============================ HERO ============================== */
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color);
 }
 .main-title {
     font-weight: 700;
@@ -180,7 +180,7 @@ body {
 /* =========================== FOOTER ============================ */
 
 .footer-page {
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color);
 }
 
 /* =========================== FOOTER ============================ */
