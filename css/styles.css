@@ -70,6 +70,13 @@ body {
     color: #404BBF;
 }
 
+.menu-link-contacts {
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
 /* MAIN */
 
 
